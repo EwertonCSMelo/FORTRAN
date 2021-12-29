@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fzveg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Sonny\CONFIG~1\Temp\RSP9A.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"D:\Usr\Sonny\Tese.Doutorado.Ewerton\make.surface\fzveg.f90"
+]
+Creating command line "link.exe kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/fzveg.pdb" /debug /machine:I386 /out:"Debug/fzveg.exe" /pdbtype:sept  .\Debug\fzveg.obj "
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\Usr\Sonny\Tese.Doutorado.Ewerton\make.surface\fzveg.f90
+D:\Usr\Sonny\Tese.Doutorado.Ewerton\make.surface\fzveg.f90(761) : Warning: In the call to LER_SPR, actual argument #5 does not match the type and kind of the corresponding dummy argument.
+     Call ler_spr(w,e,s,n,sfc_km)
+--------------------------^
+D:\Usr\Sonny\Tese.Doutorado.Ewerton\make.surface\fzveg.f90(1180) : Warning: In the call to MKTOPO, actual argument #11 does not match the type and kind of the corresponding dummy argument.
+      call mktopo(nx,ny,iveg,iwlon,islat,tres,iblsize,ibldim,fpref,scr,offlat,offlon)
+-------------------------------------------------------------------^
+Linking...
+
+
+
+<h3>Results</h3>
+fzveg.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
