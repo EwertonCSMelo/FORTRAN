@@ -1,0 +1,3 @@
+Este programa calcula o balanço hídrico segundo thorntwait lendo os arquivos de dals climatológicos gerado pela SUDENE.
+
+Ele pode ser modificado para ler outros dados de entrada precisando ter a Temperatura e Chuva.
